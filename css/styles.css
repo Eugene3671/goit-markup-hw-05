@@ -477,4 +477,62 @@ input {
 .footer .social-link .icon {
   fill: #f4f4fd;
 }
+.form-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 80px;
+  gap: 24px;
+}
+.form-footer-label {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.form-footer-input {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  background-color: #2e2f42;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.form-footer-input::placeholder {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+  font-size: 12px;
+
+  /* line-height: 24px; */
+  line-height: 200%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.form-footer-button {
+  border-radius: 4px;
+  border: none;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}
 /* #endregion FOOTER */
